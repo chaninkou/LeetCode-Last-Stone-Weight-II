@@ -27,7 +27,7 @@ public class FindLastStoneWeight {
         return sum - 2 * dp[sum / 2];
     }
     
-    // With 2D array instead of 1D
+    // With 2D array instead of 1D array
     public int lastStoneWeight2(int[] stones) {
         int n = stones.length;
         
