@@ -12,7 +12,7 @@ public class FindLastStoneWeight {
             sum += stone;
         }
         
-        // Only need to go til half of the total sum
+        // Only need to go till half of the total sum
         int[] dp = new  int[sum / 2 + 1];
         
         // For each stones from left to right
